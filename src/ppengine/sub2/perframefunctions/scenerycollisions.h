@@ -1,0 +1,6 @@
+#ifndef __SUB2_PERFRAMEFUNCTIONS_SCENERY_COLLISIONS_H
+#define __SUB2_PERFRAMEFUNCTIONS_SCENERY_COLLISIONS_H
+
+void check_scenery_collisions();
+
+#endif

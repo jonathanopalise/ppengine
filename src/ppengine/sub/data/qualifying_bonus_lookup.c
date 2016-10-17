@@ -1,0 +1,12 @@
+#include "ppengine/sub/data/qualifying_bonus_lookup.h"
+
+uint16_t qualifying_bonus_lookup[]={
+	0x400,
+	0x200,
+	0x140,
+	0x100,
+	0x80,
+	0x60,
+	0x40,
+	0x20
+};

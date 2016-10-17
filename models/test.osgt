@@ -1,0 +1,318 @@
+#Ascii Scene
+#Version 92
+#Generator osgexport 0.13.0
+
+osg::Group {
+  UniqueID 858
+  Name "Root"
+  StateSet TRUE {
+    osg::StateSet {
+      UniqueID 859
+      ModeList 1 {
+        GL_LIGHT0 ON
+      }
+      AttributeList 2 {
+        osg::LightModel {
+          UniqueID 860
+          AmbientIntensity 0.00000 0.00000 0.00000 1.00000
+          ColorControl SEPARATE_SPECULAR_COLOR
+          LocalViewer FALSE
+        }
+        Value OFF
+        osg::Material {
+          UniqueID 861
+          Ambient TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
+          Diffuse TRUE Front 0.64000 0.64000 0.64000 1.00000 Back 0.64000 0.64000 0.64000 1.00000
+          Specular TRUE Front 0.50000 0.50000 0.50000 1.00000 Back 0.50000 0.50000 0.50000 1.00000
+          Emission TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
+          Shininess TRUE Front 10.00000 Back 10.00000
+        }
+        Value OFF
+      }
+    }
+  }
+  Children 3 {
+    osg::MatrixTransform {
+      UniqueID 820
+      Name "Cube"
+      Children 1 {
+        osg::Geode {
+          UniqueID 841
+          Name "GeodeCube"
+          Drawables 1 {
+            osg::Geometry {
+              UniqueID 822
+              Name "Cube"
+              StateSet TRUE {
+                osg::StateSet {
+                  UniqueID 823
+                  Name "SL"
+                  DataVariance DYNAMIC
+                  UserDataContainer TRUE {
+                    osg::DefaultUserDataContainer {
+                      UniqueID 836
+                      UDC_UserObjects 3 {
+                        osg::StringValueObject {
+                          UniqueID 837
+                          Name "source"
+                          Value "blender"
+                        }
+                        osg::StringValueObject {
+                          UniqueID 839
+                          Name "00_DiffuseColor"
+                          Value "1.0"
+                        }
+                        osg::StringValueObject {
+                          UniqueID 840
+                          Name "00_BlendType"
+                          Value "MIX"
+                        }
+                      }
+                    }
+                  }
+                  ModeList 1 {
+                    GL_LIGHTING OFF
+                  }
+                  AttributeList 1 {
+                    osg::Material {
+                      UniqueID 824
+                      Name "SL"
+                      DataVariance DYNAMIC
+                      UserDataContainer TRUE {
+                        osg::DefaultUserDataContainer {
+                          UniqueID 825
+                          UDC_UserObjects 10 {
+                            osg::StringValueObject {
+                              UniqueID 826
+                              Name "source"
+                              Value "blender"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 827
+                              Name "DiffuseIntensity"
+                              Value "0.800000011920929"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 828
+                              Name "DiffuseColor"
+                              Value "[ 0.800000, 0.800000, 0.800000 ]"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 829
+                              Name "SpecularIntensity"
+                              Value "0.5"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 830
+                              Name "SpecularColor"
+                              Value "[ 1.000000, 1.000000, 1.000000 ]"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 831
+                              Name "SpecularHardness"
+                              Value "50"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 832
+                              Name "Shadeless"
+                              Value "true"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 833
+                              Name "Translucency"
+                              Value "0.0"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 834
+                              Name "DiffuseShader"
+                              Value "LAMBERT"
+                            }
+                            osg::StringValueObject {
+                              UniqueID 835
+                              Name "SpecularShader"
+                              Value "COOKTORR"
+                            }
+                          }
+                        }
+                      }
+                      Ambient TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
+                      Diffuse TRUE Front 0.64000 0.64000 0.64000 1.00000 Back 0.64000 0.64000 0.64000 1.00000
+                      Specular TRUE Front 0.50000 0.50000 0.50000 1.00000 Back 0.50000 0.50000 0.50000 1.00000
+                      Emission TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
+                      Shininess TRUE Front 12.50000 Back 12.50000
+                    }
+                    Value OFF
+                  }
+                  TextureModeList 1 {
+                    Data 1 {
+                      GL_TEXTURE_2D ON
+                    }
+                  }
+                  TextureAttributeList 1 {
+                    Data 1 {
+                      osg::Texture2D {
+                        UniqueID 838
+                        Name "Texture.001"
+                        WRAP_S REPEAT
+                        WRAP_T REPEAT
+                        WRAP_R REPEAT
+                        MIN_FILTER LINEAR_MIPMAP_LINEAR
+                        MAG_FILTER LINEAR
+                        Image TRUE {
+                          UniqueID 862
+                          FileName "textures/namcolow.png"
+                          WriteHint 0 2
+                        }
+                      }
+                      Value OFF
+                    }
+                  }
+                }
+              }
+              PrimitiveSetList 1 {
+                  DrawElementsUInt GL_QUADS 4 {
+                    0 1 2 3 
+                  }
+              }
+              VertexData {
+                Array TRUE ArrayID 40 Vec3fArray 4 {
+                  1.00000 0.00000 -1.00000
+                  1.00000 -0.00000 1.00000
+                  -1.00000 0.00000 1.00000
+                  -1.00000 -0.00000 -1.00000
+                }
+                Indices FALSE
+                Binding BIND_PER_VERTEX
+                Normalize 0
+              }
+              NormalData {
+                Array TRUE ArrayID 41 Vec3fArray 4 {
+                  0.00000 -1.00000 -0.00000
+                  0.00000 -1.00000 -0.00000
+                  0.00000 -1.00000 -0.00000
+                  0.00000 -1.00000 -0.00000
+                }
+                Indices FALSE
+                Binding BIND_PER_VERTEX
+                Normalize 0
+              }
+              TexCoordData 1 {
+                Data {
+                  Array TRUE ArrayID 42 Vec2fArray 4 {
+                    0.99990 0.00010
+                    0.99990 0.99990
+                    0.00010 0.99990
+                    0.00010 0.00010
+                  }
+                  Indices FALSE
+                  Binding BIND_PER_VERTEX
+                  Normalize 0
+                }
+              }
+            }
+          }
+        }
+      }
+      Matrix {
+        3.56177 0.00000 0.00000 0.00000
+        0.00000 3.56177 0.00000 0.00000
+        0.00000 0.00000 3.56177 0.00000
+        0.00000 0.00000 0.00000 1.00000
+      }
+    }
+    osg::MatrixTransform {
+      UniqueID 842
+      Name "Lamp"
+      Children 1 {
+        osg::LightSource {
+          UniqueID 843
+          Name "Lamp"
+          Light TRUE {
+            osg::Light {
+              UniqueID 844
+              UserDataContainer TRUE {
+                osg::DefaultUserDataContainer {
+                  UniqueID 845
+                  UDC_UserObjects 9 {
+                    osg::StringValueObject {
+                      UniqueID 846
+                      Name "source"
+                      Value "blender"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 847
+                      Name "Energy"
+                      Value "1.0"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 848
+                      Name "Color"
+                      Value "[ 1.000000, 1.000000, 1.000000 ]"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 849
+                      Name "UseDiffuse"
+                      Value "true"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 850
+                      Name "UseSpecular"
+                      Value "true"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 851
+                      Name "Distance"
+                      Value "29.999982833862305"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 852
+                      Name "FalloffType"
+                      Value "INVERSE_SQUARE"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 853
+                      Name "UseSphere"
+                      Value "false"
+                    }
+                    osg::StringValueObject {
+                      UniqueID 854
+                      Name "Type"
+                      Value "POINT"
+                    }
+                  }
+                }
+              }
+              LightNum 0
+              Ambient 1.00000 1.00000 1.00000 1.00000
+              Diffuse 1.00000 1.00000 1.00000 1.00000
+              Specular 1.00000 1.00000 1.00000 1.00000
+              Position 0.00000 0.00000 0.00000 1.00000
+              Direction 0.00000 0.00000 -1.00000
+              ConstantAttenuation 0.00000
+              LinearAttenuation 0.00000
+              QuadraticAttenuation 0.03333
+              SpotExponent 0.00000
+              SpotCutoff 180.00000
+            }
+          }
+        }
+      }
+      Matrix {
+        -0.29086 0.95517 -0.05519 0.00000
+        -0.77110 -0.19988 0.60452 0.00000
+        0.56639 0.21839 0.79467 0.00000
+        4.07625 1.00545 5.90386 1.00000
+      }
+    }
+    osg::MatrixTransform {
+      UniqueID 856
+      Name "Camera"
+      Matrix {
+        0.68588 0.72763 -0.01082 0.00000
+        -0.31737 0.31247 0.89534 0.00000
+        0.65486 -0.61067 0.44525 0.00000
+        7.48113 -6.50764 5.34367 1.00000
+      }
+    }
+  }
+}

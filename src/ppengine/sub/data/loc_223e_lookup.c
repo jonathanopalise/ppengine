@@ -1,0 +1,12 @@
+#include "ppengine/sub/data/loc_223e_lookup.h"
+
+uint8_t loc_223e_lookup[]={
+	0x6e,
+	0x64,
+	0x6e,
+	0x64,
+	0x78,
+	0x6e,
+	0x82,
+	0x78
+};

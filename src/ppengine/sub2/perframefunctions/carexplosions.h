@@ -1,0 +1,6 @@
+#ifndef __SUB2_PERFRAMEFUNCTIONS_CAR_EXPLOSIONS_H
+#define __SUB2_PERFRAMEFUNCTIONS_CAR_EXPLOSIONS_H
+
+void update_car_explosions();
+
+#endif
