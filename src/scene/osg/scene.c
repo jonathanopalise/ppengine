@@ -20,7 +20,6 @@
 #include <osgText/Text>
 #include <osgShadow/ShadowedScene>
 #include <osgShadow/ShadowMap>
-#include <osgShadow/ShadowVolume>
 #include <iostream>
 #include <osg/ShapeDrawable>
 

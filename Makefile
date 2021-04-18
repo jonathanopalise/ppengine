@@ -5,7 +5,7 @@ endif
 CC = gcc
 CFLAGS = -O3 -I src
 CXX = g++
-CXXFLAGS = -O3 -std=c++98 -g -Wall -Wno-narrowing -I src -I $(GORILLA_AUDIO_PATH)/include -I /home/jonathan/f1-hotshot/src/ppengine
+CXXFLAGS = -O3 -std=c++98 -g -Wall -Wno-narrowing -I src -I $(GORILLA_AUDIO_PATH)/include -I ./src/ppengine
 OSGFLAGS = -losg -losgDB -losgFX -losgGA -losgParticle -losgSim -losgText -losgUtil -losgTerrain -losgManipulator -losgViewer -losgWidget -losgShadow -losgAnimation -losgVolume -lOpenThreads -lpthread
 OPENALFLAGS = -lalut -lopenal
 
